@@ -1,0 +1,20 @@
+body {
+  font-family: sans-serif;
+}
+
+.container {
+  height: 100px;
+  min-width: 50%;
+  border: 2px solid black;
+  overflow-y: scroll;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  flex: 1 1 auto;
+}
+
+.item {
+  height: 20%;
+  width: 20%;
+  border: 1px solid black;
+}
